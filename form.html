@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="form.html">Registor</a>
+    </nav>
+    <a href="index.html">home</a><br><br>
+    <form action="Thank you.html" method="get">
+
+        <label for="fn">full name</label><br><br>
+        <input type="text", name="full name" id="fn",required,placeholder="Full name"><br><br>
+        <label for="reg">Registration No</label><br><br>
+        <input type="text", name="Registration No" id="reg",required><br><br>
+        <label for="em">Email</label><br><br>
+        <input type="email" name="Email" id="em",required><br><br>
+        <label for="phn">Phone no</label><br><br>
+        <input type="tel" name="Phone no" id="phn", placeholder="03XXXXXXXXX"><br><br>
+        <label for="ag">age</label><br><br>
+        <input type="number" name="age" id="ag", min="16", max="40"><br><br>
+        <label for="dob">Date of Birth</label><br><br>
+        <input type="date" name="Date of Birth" id="dob"><br><br>
+        <label for="gen">Gender</label><br><br>
+        <input type="radio" name="Gender" id="gen", value="male">male
+        <input type="radio" name="Gender" id="gen", value="female">female<br><br>
+         <Label for="dep">Department</Label><br><br>
+        <select name="Department" id="dep"><br><br>
+            <option>Ai</Option><br><br>
+            <option>Cs</Option><br><br>
+            <option>SE</option><br><br>
+            <option>EE</option><br><br>
+        </select><br><br>
+        <label for="Int">Intrests</label><br><br>
+        <input type="checkbox" name="Intrests" id="Int", value="Web">Web
+        <input type="checkbox" name="Intrests" id="Int", value="AI">AI
+        <input type="checkbox" name="Intrests" id="Int", value="Games">Games<br><br>
+         <label for="ad">Adress</label><br><br>
+         <textarea id="ad" name="Adress"
+                  rows="4" cols="30"></textarea><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button><br><br>
+    </form>
+</body>
+</html>
